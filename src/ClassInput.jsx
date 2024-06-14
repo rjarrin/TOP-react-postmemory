@@ -55,7 +55,7 @@ class ClassInput extends Component {
     savedEditedTodo(index) {
         const updatedTodos = [...this.state.todos];
         updatedTodos[index] = this.state.tempEditValue;
-        this.setState({todos: updatedTodos, isEditing: false, tempEditValue: "", editingIndex: null});
+        this.setState({ todos: updatedTodos, isEditing: false, tempEditValue: "", editingIndex: null });
     }
 
     // 2. Render the JSX
